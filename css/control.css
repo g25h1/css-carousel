@@ -40,32 +40,10 @@ input[type=radio]:checked ~ .dir_box label{
     display: flex;
 }
 
-/* 下方按钮4 */
-#btn4:checked ~ .pic .box{
-    margin-left: -300%;
-}
-#btn4:checked ~ .count .btn_4{
-    background:white;
-}
-#btn4:checked ~ .dir_box .btn_btn_4{
-    display: flex;
-}
-
-/* 下方按钮5 */
-#btn5:checked ~ .pic .box{
-    margin-left: -400%;
-}
-#btn5:checked ~ .count .btn_5{
-    background:white;
-}
-#btn5:checked ~ .dir_box .btn_btn_5{
-    display: flex;
-}
-
 
 /* 左边第一个按钮 */
 #left_btn1:checked ~ .pic .box{
-    margin-left: -400%;
+    margin-left: -200%;
 }
 #left_btn1:checked ~ .count .btn_5{
     background:white;
@@ -90,31 +68,9 @@ input[type=radio]:checked ~ .dir_box label{
     display: flex;
 }
 
-/* 左边第二个按钮 */
-#left_btn2:checked ~ .pic .box{
-    margin-left: 0;
-}
-#left_btn2:checked ~ .count .btn_1{
-    background:white;
-}
-#left_btn2:checked ~ .dir_box .btn_btn_1{
-    display: flex;
-}
-
-/* 右边第二个按钮 */
-#right_btn2:checked ~ .pic .box{
-    margin-left: -200%;
-}
-#right_btn2:checked ~ .count .btn_3{
-    background:white;
-}
-#right_btn2:checked ~ .dir_box .btn_btn_3{
-    display: flex;
-}
-
 /* 左边第三个按钮 */
 #left_btn3:checked ~ .pic .box{
-    margin-left: -100%;
+    margin-left: 0%;
 }
 #left_btn3:checked ~ .count .btn_2{
     background:white;
@@ -126,7 +82,7 @@ input[type=radio]:checked ~ .dir_box label{
 /* 右边第三个按钮 */
 
 #right_btn3:checked ~ .pic .box{
-    margin-left: -300%;
+    margin-left: -200%;
 }
 #right_btn3:checked ~ .count .btn_4{
     background:white;
@@ -135,34 +91,10 @@ input[type=radio]:checked ~ .dir_box label{
     display: flex;
 }
 
-/* 左边第四个按钮 */
-
-#left_btn4:checked ~ .pic .box{
-    margin-left: -200%;
-}
-#left_btn4:checked ~ .count .btn_3{
-    background:white;
-}
-#left_btn4:checked ~ .dir_box .btn_btn_3{
-    display: flex;
-}
-
-/* 右边第四个按钮 */
-
-#right_btn4:checked ~ .pic .box{
-    margin-left: -400%;
-}
-#right_btn4:checked ~ .count .btn_5{
-    background:white;
-}
-#right_btn4:checked ~ .dir_box .btn_btn_5{
-    display: flex;
-}
-
 /* 左边第五个按钮 */
 
 #left_btn5:checked ~ .pic .box{
-    margin-left: -300%;
+    margin-left: -100%;
 }
 #left_btn5:checked ~ .count .btn_4{
     background:white;
@@ -174,7 +106,7 @@ input[type=radio]:checked ~ .dir_box label{
 /* 右边第五个按钮 */
 
 #right_btn5:checked ~ .pic .box{
-    margin-left: -500%;
+    margin-left: -300%;
     transition: margin 0.8s 0s;
 }
 #right_btn5:checked ~ .pic .after_box{
